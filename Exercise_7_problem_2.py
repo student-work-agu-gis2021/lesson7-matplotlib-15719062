@@ -20,6 +20,7 @@
 import pandas as pd
 fp="data/helsinki-vantaa.csv"
 data = pd.read_csv(fp,parse_dates=['DATE'],index_col='DATE')
+
 # This test print should print first five rows
 print(data.head())
 
