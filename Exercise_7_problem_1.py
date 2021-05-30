@@ -24,6 +24,7 @@ y = np.random.rand(1000)
 data = pd.DataFrame()
 data["x"] = x
 data["y"] = y
+
 # Check your random values
 print(data.head())
 
